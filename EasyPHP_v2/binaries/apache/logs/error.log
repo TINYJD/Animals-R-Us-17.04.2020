@@ -569,3 +569,23 @@
 [Fri Apr 17 10:03:47.674898 2020] [mpm_winnt:notice] [pid 26308:tid 724] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Apr 17 10:03:49.678007 2020] [mpm_winnt:notice] [pid 19612:tid 644] AH00364: Child: All worker threads have exited.
 [Fri Apr 17 10:03:49.747493 2020] [mpm_winnt:notice] [pid 26308:tid 724] AH00430: Parent: Child process 19612 exited successfully.
+[Fri Apr 17 10:32:15.102304 2020] [mpm_winnt:notice] [pid 21296:tid 792] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Fri Apr 17 10:32:15.102304 2020] [mpm_winnt:notice] [pid 21296:tid 792] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Fri Apr 17 10:32:15.102304 2020] [core:notice] [pid 21296:tid 792] AH00094: Command line: 'C:\\Users\\YIVACH~1\\DOCUME~1\\GitHub\\ANIMAL~2\\EASYPH~1\\binaries\\apache\\bin\\eds-httpd.exe -d C:/Users/Yiva Chow/Documents/GitHub/Animals-R-Us-JONismaster/EasyPHP_v2/binaries/apache'
+[Fri Apr 17 10:32:15.111280 2020] [mpm_winnt:notice] [pid 21296:tid 792] AH00418: Parent: Created child process 20576
+[Fri Apr 17 10:32:15.753229 2020] [mpm_winnt:notice] [pid 20576:tid 756] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 17 10:47:42.484492 2020] [mpm_winnt:warn] [pid 20576:tid 1568] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Apr 17 15:14:38.658933 2020] [:error] [pid 20576:tid 1236] [client 127.0.0.1:58072] PHP Fatal error:  Call to undefined method Grocery_CRUD::set_message() in C:\\Users\\Yiva Chow\\Documents\\GitHub\\Animals-R-Us-JONismaster\\EasyPHP_v2\\data\\localweb\\animals_r_us\\application\\controllers\\main.php on line 52, referer: http://localhost:8080/animals_r_us/index.php/main/owner
+[Fri Apr 17 16:33:14.198327 2020] [:error] [pid 20576:tid 1236] [client 127.0.0.1:59095] PHP Fatal error:  Call to undefined method Grocery_CRUD::set_message() in C:\\Users\\Yiva Chow\\Documents\\GitHub\\Animals-R-Us-JONismaster\\EasyPHP_v2\\data\\localweb\\animals_r_us\\application\\controllers\\main.php on line 52, referer: http://localhost:8080/animals_r_us/index.php/main/owner
+[Fri Apr 17 16:33:31.471651 2020] [:error] [pid 20576:tid 1236] [client 127.0.0.1:59102] PHP Fatal error:  Call to undefined method Grocery_CRUD::set_message() in C:\\Users\\Yiva Chow\\Documents\\GitHub\\Animals-R-Us-JONismaster\\EasyPHP_v2\\data\\localweb\\animals_r_us\\application\\controllers\\main.php on line 52, referer: http://localhost:8080/animals_r_us/index.php/main/owner
+[Fri Apr 17 16:57:36.763490 2020] [mpm_winnt:notice] [pid 21296:tid 792] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 16:57:38.769429 2020] [mpm_winnt:notice] [pid 20576:tid 756] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 16:57:38.875234 2020] [mpm_winnt:notice] [pid 21296:tid 792] AH00430: Parent: Child process 20576 exited successfully.
+[Fri Apr 17 16:58:08.118380 2020] [mpm_winnt:notice] [pid 21864:tid 752] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Fri Apr 17 16:58:08.118380 2020] [mpm_winnt:notice] [pid 21864:tid 752] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Fri Apr 17 16:58:08.118380 2020] [core:notice] [pid 21864:tid 752] AH00094: Command line: 'C:\\Users\\YIVACH~1\\DOCUME~1\\GitHub\\ANIMAL~2\\EASYPH~1\\binaries\\apache\\bin\\eds-httpd.exe -d C:/Users/Yiva Chow/Documents/GitHub/Animals-R-Us-JONismaster/EasyPHP_v2/binaries/apache'
+[Fri Apr 17 16:58:08.129350 2020] [mpm_winnt:notice] [pid 21864:tid 752] AH00418: Parent: Created child process 27076
+[Fri Apr 17 16:58:08.834048 2020] [mpm_winnt:notice] [pid 27076:tid 736] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 17 16:58:29.479817 2020] [mpm_winnt:notice] [pid 21864:tid 752] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 16:58:32.488292 2020] [mpm_winnt:notice] [pid 27076:tid 736] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 16:58:32.525941 2020] [mpm_winnt:notice] [pid 21864:tid 752] AH00430: Parent: Child process 27076 exited successfully.

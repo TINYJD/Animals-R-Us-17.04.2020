@@ -30,11 +30,11 @@ class Main extends CI_Controller {
 		$crud->set_subject('animal');
 		
 		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('Animal_ID', 'Animal_Name', 'Owner_ID', 'Height (cm)', 'Weight (kg)', 'Condition_Name', 'Availability');
+		$crud->columns('Animal_ID', 'Animal_Name', 'Owner_ID', 'Height', 'Weight', 'Condition_Name', 'Availability');
 	
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields ('Animal_Name', 'Owner_ID', 'Height (cm)', 'Weight (kg)', 'Condition_Name','Availability');
+		$crud->fields ('Animal_Name', 'Owner_ID', 'Height', 'Weight', 'Condition_Name','Availability');
 		
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
@@ -49,12 +49,15 @@ class Main extends CI_Controller {
 		//$crud->set_relation('Condition_Level','diagnosis', 'Condition_Level');
 		//$crud->set_relation('Condition_Level','diagnosis', 'Condition_Level');
 		
+		
 		//form validation (could match database columns set to "not null")
-		$crud->required_fields('Animal_ID', 'Animal_Name', 'Owner_ID', 'Height (cm)', 'Weight (kg)', 'Condition_Name');
+		$crud->required_fields('Animal_ID', 'Animal_Name', 'Owner_ID', 'Height', 'Weight', 'Condition_Name');
 		
 		//change column heading name for readability ('columm name', 'name to display in frontend column header')
 		$crud->display_as('Animal_ID', 'Animal ID');
 		$crud->display_as('Condition_Name', 'Condition Name');
+		$crud->display_as('Height','Height (cm)');
+		$crud->display_as('Weight','Weight (kg)');
 		//$crud->display_as('Condition_Level', 'Condition Level');
 		
 		$output = $crud->render();

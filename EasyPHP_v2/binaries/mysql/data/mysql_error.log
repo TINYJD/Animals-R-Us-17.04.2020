@@ -2125,3 +2125,31 @@ InnoDB: Last MySQL binlog file position 0 63501, file name mysql-bin.000059
 2020-04-17 09:02:48 10028 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2020-04-17 09:02:48 10028 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2020-04-17 09:02:48 10028 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-17 10:32:14 27668 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-17 10:32:14 27668 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-17 10:32:14 27668 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-17 10:32:14 27668 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-17 10:32:14 27668 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-17 10:32:14 27668 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-17 10:32:14 27668 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-17 10:32:14 27668 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-17 10:32:14 27668 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-17 10:32:14 27668 [Note] InnoDB: Waiting for purge to start
+2020-04-17 10:32:14 27668 [Note] InnoDB: 5.6.15 started; log sequence number 3826805
+2020-04-17 10:32:14 27668 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-17 10:32:14 27668 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-17 10:32:14 27668 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-17 16:58:07 16344 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-17 16:58:07 16344 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-17 16:58:07 16344 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-17 16:58:07 16344 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-17 16:58:07 16344 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-17 16:58:07 16344 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-17 16:58:07 16344 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-17 16:58:07 16344 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-17 16:58:07 16344 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-17 16:58:07 16344 [Note] InnoDB: Waiting for purge to start
+2020-04-17 16:58:07 16344 [Note] InnoDB: 5.6.15 started; log sequence number 3834517
+2020-04-17 16:58:07 16344 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-17 16:58:07 16344 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-17 16:58:07 16344 [Note] Server socket created on IP: '127.0.0.1'.

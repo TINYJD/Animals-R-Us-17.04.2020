@@ -3,12 +3,19 @@
 <head>
 	<meta charset="utf-8" />
 	<style>
-		h1 { text-align: center; 	font-family: Calibri; }
+		h1 { text-align: center; 	font-family: Times New Roman; color: blue;}
 		p.p-centre { text-align: center; font-family: Arial; }
 		#cogs { display: block; padding-top: 20px; margin-left: auto; margin-right: auto; }		
+body
+{
+ background-color: #C6FFCD;
+}
 	</style>
 </head>
 <body>
+
+
+
 
 <h1>Animals Are Us Vetinary System</h1>
 

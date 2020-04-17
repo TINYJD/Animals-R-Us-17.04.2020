@@ -4,6 +4,10 @@
 	<meta charset="utf-8" />
 	<style>
 		h1 { text-align: center; 	font-family: Calibri; }
+body
+{
+ background-color: #93D0FF;
+}
 	</style>
 <?php 
 foreach($css_files as $file): ?>

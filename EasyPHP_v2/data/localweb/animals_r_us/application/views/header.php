@@ -8,7 +8,7 @@
 	#rightnav { list-style: none; }
 	#nav li { float: left; }
 	#rightnav li { float: right; }
-	#nav li a { margin: 0 3px 0 0; font-size: 15px; display: block; padding: 8px 15px; text-decoration: none; color: #000; background-color: #f2f2f2; border: 1px solid #c1c1c1;}
+	#nav li a { margin: 0 3px 0 0; font-size: 15px; display: block; padding: 8px 15px; text-decoration: none; color: #000; background-color: #74D7DD; border: 1px solid #c1c1c1;}
 	#nav li a:hover {background-color: #f2e4d5;}
 	#nav a:link, a:visited {border-radius: 12px 12px 12px 12px; }		
 	</style>

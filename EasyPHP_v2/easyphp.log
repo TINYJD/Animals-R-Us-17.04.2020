@@ -624,3 +624,20 @@
 17/04 10:03:47 EasyPHP Apache stop event: ap26308_shutdown
 17/04 10:03:48 EasyPHP MySqlSutdown event = MySQLShutdown10028
 17/04 10:03:48 EasyPHP End EasyPHP...
+17/04 10:32:13 EasyPHP EasyPHP Servers starting
+17/04 10:32:14 EasyPHP Apache CreateProcess "C:\Users\YIVACH~1\DOCUME~1\GitHub\ANIMAL~2\EASYPH~1\binaries\apache\bin\eds-httpd.exe"
+17/04 10:32:14 EasyPHP CreateProcess "C:\Users\YIVACH~1\DOCUME~1\GitHub\ANIMAL~2\EASYPH~1\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\Users\YIVACH~1\DOCUME~1\GitHub\ANIMAL~2\EASYPH~1\binaries\mysql\my.ini" --language=english"
+17/04 10:32:19 EasyPHP EasyPHP Check version
+17/04 16:57:36 EasyPHP EasyPHP Stop the servers
+17/04 16:57:36 EasyPHP Apache stop event: ap21296_shutdown
+17/04 16:57:37 EasyPHP MySqlSutdown event = MySQLShutdown27668
+17/04 16:57:37 EasyPHP End EasyPHP...
+17/04 16:58:06 EasyPHP EasyPHP Servers starting
+17/04 16:58:07 EasyPHP Apache CreateProcess "C:\Users\YIVACH~1\DOCUME~1\GitHub\ANIMAL~2\EASYPH~1\binaries\apache\bin\eds-httpd.exe"
+17/04 16:58:07 EasyPHP CreateProcess "C:\Users\YIVACH~1\DOCUME~1\GitHub\ANIMAL~2\EASYPH~1\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\Users\YIVACH~1\DOCUME~1\GitHub\ANIMAL~2\EASYPH~1\binaries\mysql\my.ini" --language=english"
+17/04 16:58:12 EasyPHP EasyPHP Check version
+17/04 16:58:29 EasyPHP EasyPHP Stop the servers
+17/04 16:58:29 EasyPHP Apache stop event: ap21864_shutdown
+17/04 16:58:30 EasyPHP MySqlSutdown event = MySQLShutdown16344
+17/04 16:58:32 EasyPHP ServerBase::TimerProc : GetProcessVersion Apache (pid: 21864) error 5
+17/04 16:58:33 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 16344) error 5
