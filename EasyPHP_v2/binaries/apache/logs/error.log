@@ -589,3 +589,11 @@
 [Fri Apr 17 16:58:29.479817 2020] [mpm_winnt:notice] [pid 21864:tid 752] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Apr 17 16:58:32.488292 2020] [mpm_winnt:notice] [pid 27076:tid 736] AH00364: Child: All worker threads have exited.
 [Fri Apr 17 16:58:32.525941 2020] [mpm_winnt:notice] [pid 21864:tid 752] AH00430: Parent: Child process 27076 exited successfully.
+[Fri Apr 17 17:01:19.567088 2020] [mpm_winnt:notice] [pid 7528:tid 628] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Fri Apr 17 17:01:19.567088 2020] [mpm_winnt:notice] [pid 7528:tid 628] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Fri Apr 17 17:01:19.567088 2020] [core:notice] [pid 7528:tid 628] AH00094: Command line: 'C:\\Users\\YIVACH~1\\DOCUME~1\\GitHub\\ANIMAL~2\\EASYPH~1\\binaries\\apache\\bin\\eds-httpd.exe -d C:/Users/Yiva Chow/Documents/GitHub/Animals-R-Us-JONismaster/EasyPHP_v2/binaries/apache'
+[Fri Apr 17 17:01:19.579105 2020] [mpm_winnt:notice] [pid 7528:tid 628] AH00418: Parent: Created child process 13684
+[Fri Apr 17 17:01:20.422128 2020] [mpm_winnt:notice] [pid 13684:tid 828] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 17 17:07:23.215431 2020] [mpm_winnt:notice] [pid 7528:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 17:07:25.217310 2020] [mpm_winnt:notice] [pid 13684:tid 828] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 17:07:25.256206 2020] [mpm_winnt:notice] [pid 7528:tid 628] AH00430: Parent: Child process 13684 exited successfully.
