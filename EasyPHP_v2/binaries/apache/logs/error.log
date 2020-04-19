@@ -597,3 +597,21 @@
 [Fri Apr 17 17:07:23.215431 2020] [mpm_winnt:notice] [pid 7528:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Apr 17 17:07:25.217310 2020] [mpm_winnt:notice] [pid 13684:tid 828] AH00364: Child: All worker threads have exited.
 [Fri Apr 17 17:07:25.256206 2020] [mpm_winnt:notice] [pid 7528:tid 628] AH00430: Parent: Child process 13684 exited successfully.
+[Fri Apr 17 20:50:49.083196 2020] [mpm_winnt:notice] [pid 13476:tid 640] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Fri Apr 17 20:50:49.084194 2020] [mpm_winnt:notice] [pid 13476:tid 640] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Fri Apr 17 20:50:49.084194 2020] [core:notice] [pid 13476:tid 640] AH00094: Command line: 'C:\\Users\\niczy\\dev\\ANIMAL~1\\EASYPH~1\\binaries\\apache\\bin\\eds-httpd.exe -d C:/Users/niczy/dev/Animals-R-Us-JONismaster/EasyPHP_v2/binaries/apache'
+[Fri Apr 17 20:50:49.096159 2020] [mpm_winnt:notice] [pid 13476:tid 640] AH00418: Parent: Created child process 7656
+[Fri Apr 17 20:50:50.009714 2020] [mpm_winnt:notice] [pid 7656:tid 808] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 17 22:25:20.542123 2020] [mpm_winnt:notice] [pid 13476:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 17 22:25:22.550845 2020] [mpm_winnt:notice] [pid 7656:tid 808] AH00364: Child: All worker threads have exited.
+[Fri Apr 17 22:25:22.668595 2020] [mpm_winnt:notice] [pid 13476:tid 640] AH00430: Parent: Child process 7656 exited successfully.
+[Sun Apr 19 10:14:00.476339 2020] [mpm_winnt:notice] [pid 22772:tid 760] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Sun Apr 19 10:14:00.477336 2020] [mpm_winnt:notice] [pid 22772:tid 760] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Sun Apr 19 10:14:00.477336 2020] [core:notice] [pid 22772:tid 760] AH00094: Command line: 'C:\\Users\\niczy\\dev\\ANIMAL~1\\EASYPH~1\\binaries\\apache\\bin\\eds-httpd.exe -d C:/Users/niczy/dev/Animals-R-Us-JONismaster/EasyPHP_v2/binaries/apache'
+[Sun Apr 19 10:14:00.486311 2020] [mpm_winnt:notice] [pid 22772:tid 760] AH00418: Parent: Created child process 6080
+[Sun Apr 19 10:14:01.515076 2020] [mpm_winnt:notice] [pid 6080:tid 700] AH00354: Child: Starting 64 worker threads.
+[Sun Apr 19 11:22:20.565239 2020] [:error] [pid 6080:tid 1224] [client 127.0.0.1:61902] PHP Parse error:  syntax error, unexpected ')' in C:\\Users\\niczy\\dev\\Animals-R-Us-JONismaster\\EasyPHP_v2\\data\\localweb\\animals_r_us\\application\\controllers\\main.php on line 45
+[Sun Apr 19 11:23:52.883959 2020] [:error] [pid 6080:tid 1228] [client 127.0.0.1:61908] PHP Parse error:  syntax error, unexpected ')' in C:\\Users\\niczy\\dev\\Animals-R-Us-JONismaster\\EasyPHP_v2\\data\\localweb\\animals_r_us\\application\\controllers\\main.php on line 45
+[Sun Apr 19 11:23:55.041177 2020] [:error] [pid 6080:tid 1228] [client 127.0.0.1:61908] PHP Parse error:  syntax error, unexpected ')' in C:\\Users\\niczy\\dev\\Animals-R-Us-JONismaster\\EasyPHP_v2\\data\\localweb\\animals_r_us\\application\\controllers\\main.php on line 45
+[Sun Apr 19 11:24:19.904178 2020] [:error] [pid 6080:tid 1224] [client 127.0.0.1:61914] PHP Parse error:  syntax error, unexpected ')' in C:\\Users\\niczy\\dev\\Animals-R-Us-JONismaster\\EasyPHP_v2\\data\\localweb\\animals_r_us\\application\\controllers\\main.php on line 45
+[Sun Apr 19 11:24:20.691470 2020] [:error] [pid 6080:tid 1224] [client 127.0.0.1:61914] PHP Parse error:  syntax error, unexpected ')' in C:\\Users\\niczy\\dev\\Animals-R-Us-JONismaster\\EasyPHP_v2\\data\\localweb\\animals_r_us\\application\\controllers\\main.php on line 45
