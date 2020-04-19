@@ -25,6 +25,7 @@
 		<li><a href='<?php echo site_url('main/traineesinlesson')?>'>Trainee's Lessons</a></li>
 		<li><a href='<?php echo site_url('main/vetlesson')?>'>Vet Lessons</a></li>
 			<ul id="rightnav">
+		<li><a href='<?php echo site_url('main/FAQ')?>'>FAQs</a></li>
 			<li><a href='<?php echo site_url('main/blank')?>'>Blank Page</a></li>
 			<li><a href='<?php echo site_url('main/querynav')?>'>Queries</a></li>
 			</ul>

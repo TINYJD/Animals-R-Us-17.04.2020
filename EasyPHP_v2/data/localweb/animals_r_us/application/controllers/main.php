@@ -42,7 +42,7 @@ class Main extends CI_Controller {
 		
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
-		$crud->set_relation('Owner_ID','owner', 'Owner_ID');
+		$crud->set_relation('Owner_ID','owner', '{Owner_ID} - {Given_Name} {Family_Name}' );
 		//$crud->set_relation_n_n('Animal_ID','animal', 'Animal_ID');
 		//$crud->set_relation_n_n('Lesson_ID','vetlesson', 'Lesson_ID);
 		$crud->set_relation('Condition_Name','diagnosis', 'Condition_Name');
@@ -78,14 +78,13 @@ class Main extends CI_Controller {
 		
 		$crud->set_table('animalsinlesson');
 		$crud->set_subject('animalsinlesson');
-		$crud->columns('Condition_Level','Animal_ID', 'Lesson_ID');
-		$crud->fields('Condition_Level','Animal_ID', 'Lesson_ID');
-		$crud->required_fields('Condition_Level','Animal_ID', 'Lesson_Id');
-		$crud->set_relation('Condition_Level','diagnosis','Condition_Level');
-		$crud->set_relation('Animal_ID', 'Animal', 'Animal_ID');
-		$crud->set_relation('Lesson_ID', 'vetlesson', 'Lesson_Number');
-		
-		$crud->display_as('Condition_Level', 'Condition Level');
+		$crud->columns('Lesson_ID','Animal_ID');
+		$crud->fields('Lesson_ID','Animal_ID');
+		$crud->required_fields('Animal_ID', 'Lesson_Id');
+		//$crud->set_relation('Condition_Level','diagnosis','Condition_Level');
+		$crud->set_relation('Animal_ID', 'Animal', '{Animal_ID} - {Animal_Name}');
+		$crud->set_relation('Lesson_ID', 'vetlesson', '{Lesson_Number} - {Lesson_Level}');
+		//$crud->display_as('Condition_Level', 'Condition Level');
 		$crud->display_as('Vetlesson', 'Lesson');
 		$crud->display_as('animalsinlesson', 'Animals in lesson');
 		
@@ -178,8 +177,8 @@ class Main extends CI_Controller {
 		$crud->required_fields('Trainee_ID', 'Lesson_No');
 		$crud->display_as('Trainee_ID', 'Trainee ID');
 		$crud->display_as('Lesson_No', 'Lesson Number');
-		$crud->set_relation('Trainee_ID','trainee', 'Trainee_ID');
-		$crud->set_relation('Lesson_No','vetlesson', 'Lesson_Number');
+		$crud->set_relation('Trainee_ID','trainee', '{Trainee_ID}- {Family_Name}');
+		$crud->set_relation('Lesson_No','vetlesson', '{Lesson_Number}- {Lesson_Level}');
 		
 		$output = $crud->render();
 		$this->traineesinlesson_output($output);
@@ -239,5 +238,10 @@ class Main extends CI_Controller {
 	{	
 		$this->load->view('header');
 		$this->load->view('blank_view');
+	}
+	public function FAQ()
+	{	
+		$this->load->view('header');
+		$this->load->view('FAQ_view');
 	}
 }
